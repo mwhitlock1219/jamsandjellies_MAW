@@ -1,0 +1,210 @@
+.headerbackground{
+
+  background-image: url(jamsjellieslogo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -300px;
+  height: 500px;
+}
+
+.bg-1 {
+    background-color: #ffffff; 
+    color: black;
+  }
+.bg-2 {
+    background-color: #161e67 ; 
+  }
+
+.redtext{
+  color:#ff5c5c;
+}
+
+.whitetext{
+  color: #ffffff;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+/*-------------------Picture Carousel-------------------*/
+.carousel_pictures{
+  height: 500px;
+  width: 500px;
+}
+
+.carousel{
+  position: relative;
+  height: 600px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.carousel_image{
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.carousel_track-container{
+  padding: 50px;
+  height:100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel_track{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  height: 100%;
+  transition: transform 250ms ease-in;
+}
+
+.carousel_slide{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 110%;
+}
+
+.carousel_button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: purple/*transparent*/;
+  border: 0;
+  cursor: pointer;
+}
+
+.carousel_button--left{
+  left: -10px;
+}
+
+.carousel_button--right{
+  right:-10px;
+}
+/*----format the dots----*/
+.carousel_nav{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.carousel_indicator{
+  border: 0;
+  border-radius: 50%;
+  width: 15px;
+  height:15px;
+  background: rgba(0,0,0,3);
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.carousel_indicator.current-slide{
+  background: #ff5c5c;
+}
+/*---end dot formating---*/
+.is-hidden{
+  display: none;
+}
+
+/*---------------------END Carousel----------------------------*/
+h1{
+  font-family: 'Montserrat:wght@800', sans-serif;
+}
+
+h2, h3 {
+  font-family: 'Montserrat:wght@600', sans-serif; /*'Montserrat', sans-serif;*/
+  line-height: 2;
+  font-size: 25px;
+  margin-bottom: 1em;
+}
+
+#center {
+  text-align: center;
+}
+
+p {
+  font-family: 'Montserrat:wght@400', sans-serif;
+  font-weight: 400px;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+body{
+  background-color: #25274D;
+}
+/*-----------------------CONTACT FORM------------------------*/
+.contact{
+  padding: 4%;
+  height: 700px;
+}
+.col-md-3{
+  background: #ff5c5c;
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+  margin-top:10%;
+}
+.contact-info img{
+  margin-bottom: 15%;
+}
+.contact-info h2{
+  margin-bottom: 10%;
+}
+.col-md-9{
+  background: #161e67;
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+  font-weight:600;
+}
+.contact-form button{
+  background: #ff5c5c;
+  color: #fff;
+  font-weight: 600;
+  width: 25%;
+}
+.contact-form button:focus{
+  box-shadow:none;
+}
+
+.logo{
+  height: 225px;
+  width: 225px;
+}
+
+/* --------------------- END CONTACT FORM -------------------*/
+
+footer{
+    background-color: black;
+    text-transform: uppercase;    
+}
+.footlogo{
+    margin: -2em;
+}
+.footer-row{
+    padding: 5em  5em  3.5em  5em;
+}
+.address, .cities{
+    line-height: 1.75em;
+    color: white;    
+}
+.copyright{
+    font-family: 'Montserrat:wght@400', sans-serif;
+    color: #5c7c91;
+    font-size: 10px;
+    padding-bottom: 2em;
+    padding-left: 4%;
+}
+.copyright a{
+    color: #5c7c91;
+}
+.copyright a:hover{    color: #e35443;
+}
